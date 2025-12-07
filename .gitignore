@@ -1,0 +1,58 @@
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-*
+.vs/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies (if someone accidentally adds them)
+node_modules/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Environment files (should not be in roadmaps)
+.env
+.env.local
+.env.*.local
+
+# Test coverage
+coverage/
+.coverage
+htmlcov/
+
+# Database files (if accidentally added)
+*.db
+*.sqlite
+*.sqlite3
+
+# Compiled files
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
